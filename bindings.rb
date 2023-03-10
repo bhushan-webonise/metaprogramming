@@ -11,12 +11,10 @@ class Books
 end
 
 book1=Books.new(1,"Rich dad poor dad","robert")
-A1=book1.get_book_deatils
+a1=book1.get_book_deatils
 
 book2=Books.new(2,"Half Girlfriend","chetan bhagat")
-A2=book2.get_book_deatils
+a2=book2.get_book_deatils
 
-eval("@book_id",A1)
-eval("@book_id",A2)
-
-
+eval("@book_id",a1)
+eval("@book_id",a2)
